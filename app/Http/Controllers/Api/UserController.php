@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Response;
 use App\Models\User;
 use App\Http\Resources\Web\UserResource;
+use App\Http\Resources\Api\UserResource as APIUserResource;
 
 class UserController extends Controller
 {
