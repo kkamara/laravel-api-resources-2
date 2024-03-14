@@ -1,14 +1,29 @@
 {
     "client": "Thunder Client",
     "collectionName": "Laravel API Resources",
-    "dateExported": "2024-03-14T21:59:11.506Z",
+    "dateExported": "2024-03-14T22:02:12.357Z",
     "version": "1.1",
-    "folders": [],
+    "folders": [
+        {
+            "_id": "928514e2-d0b2-4c38-8833-8334e3cbd4f4",
+            "name": "API",
+            "containerId": "",
+            "created": "2024-03-14T22:01:57.512Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "0095e505-1e86-4576-a516-19cd375db095",
+            "name": "Web",
+            "containerId": "",
+            "created": "2024-03-14T22:02:06.508Z",
+            "sortNum": 20000
+        }
+    ],
     "requests": [
         {
             "_id": "56a26601-a34c-47cc-a533-6d2d569c18dc",
             "colId": "0b5408f1-86ca-4a5c-b0b8-2e773b1a3ce6",
-            "containerId": "",
+            "containerId": "928514e2-d0b2-4c38-8833-8334e3cbd4f4",
             "name": "Register User",
             "url": "http://localhost:3000/api/user/register",
             "method": "POST",
@@ -27,11 +42,11 @@
         {
             "_id": "561e8a61-dca4-496f-a61d-9c45e7a3181b",
             "colId": "0b5408f1-86ca-4a5c-b0b8-2e773b1a3ce6",
-            "containerId": "",
+            "containerId": "0095e505-1e86-4576-a516-19cd375db095",
             "name": "Get Users",
             "url": "http://localhost:3000/api/web/users",
             "method": "GET",
-            "sortNum": 20000,
+            "sortNum": 10000,
             "created": "2024-03-14T21:58:14.030Z",
             "modified": "2024-03-14T21:58:14.030Z",
             "headers": [
