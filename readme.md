@@ -2,9 +2,9 @@
 
 <img src="https://github.com/kkamara/useful/blob/main/php-reactjs-boilerplate2.png?raw=true" alt="php-reactjs-boilerplate2.png" width=""/>
 
-# PHP Reactjs Boilerplate [![API](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml)
+# Laravel API Resources [![API](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml)
 
-(2021) A Laravel 11.x boilerplate with Reactjs Redux.
+(14-Mar-2023) A Laravel 11.x app with Reactjs Redux.
 
 * [Using Thunder Client?](#thunder-client)
 
