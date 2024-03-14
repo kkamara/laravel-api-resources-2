@@ -59,6 +59,35 @@ npm run build
 php artisan serve --port=3000
 ```
 
+#### Using UserCollection results in duplication of "success" key in data array
+
+```json
+{
+    "data": [
+        {
+            "success": true,
+            "data": {
+                "first_name": "Jason",
+                "last_name": "Herzog",
+                "email": "saufderhar@example.org",
+                "created_at": "2024-03-14T21:47:17.000000Z",
+                "updated_at": "2024-03-14T21:47:17.000000Z"
+            }
+        },
+        {
+            "success": true,
+            "data": {
+                "first_name": "Amira",
+                "last_name": "Wiza",
+                "email": "jledner@example.net",
+                "created_at": "2024-03-14T21:47:17.000000Z",
+                "updated_at": "2024-03-14T21:47:17.000000Z"
+            }
+        }
+    ]
+}
+```
+
 ## Api Documentation
 
 ```bash
