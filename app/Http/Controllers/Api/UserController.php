@@ -11,6 +11,7 @@ use Illuminate\Http\Response;
 use App\Models\User;
 use App\Http\Resources\Web\UserResource;
 use App\Http\Resources\Api\UserResource as APIUserResource;
+use App\Http\Resources\Api\UserCollection;
 
 class UserController extends Controller
 {
@@ -84,11 +85,12 @@ class UserController extends Controller
     }
 
     function getUser(User $user, Request $request) {
-        dd($user);
-        return ['message' => 'Success'];
+        return new APIUserResource($user);
     }
 
     function getAllUsers(Request $request) {
-        return ['message' => 'Success'];
+        return new UserCollection(
+            User::paginate()
+        );
     }
 }
