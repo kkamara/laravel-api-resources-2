@@ -88,7 +88,7 @@ php artisan serve --port=3000
 }
 ```
 
-[See fix in Laravel API Resources 2](https://github.com/kkamara/laravel-api-resources).
+[See fix in Laravel API Resources 2](https://github.com/kkamara/laravel-api-resources-2).
 
 ## Api Documentation
 
