@@ -36,4 +36,12 @@ Route::prefix('/user')->group(function () {
         '/authorize', 
         [UserController::class,'authorizeUser'],
     )->middleware("auth:sanctum");
+    Route::get(
+        '/all',
+        [UserController::class, 'getAllUsers'],
+    );
+    Route::get(
+        '/{user}',
+        [UserController::class, 'getUser'],
+    );
 });

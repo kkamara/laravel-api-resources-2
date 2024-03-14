@@ -82,4 +82,13 @@ class UserController extends Controller
         $request->user()->currentAccessToken()->delete();
         return ['message' => 'Success'];
     }
+
+    function getUser(User $user, Request $request) {
+        dd($user);
+        return ['message' => 'Success'];
+    }
+
+    function getAllUsers(Request $request) {
+        return ['message' => 'Success'];
+    }
 }
