@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Laravel API Resources",
-    "dateExported": "2024-03-14T22:02:12.357Z",
+    "dateExported": "2024-03-14T22:17:17.988Z",
     "version": "1.1",
     "folders": [
         {
@@ -56,6 +56,46 @@
                 }
             ],
             "params": [],
+            "tests": []
+        },
+        {
+            "_id": "06aef531-f40e-450d-b87a-2ec8c9a6bf0f",
+            "colId": "0b5408f1-86ca-4a5c-b0b8-2e773b1a3ce6",
+            "containerId": "928514e2-d0b2-4c38-8833-8334e3cbd4f4",
+            "name": "Get User by ID",
+            "url": "http://localhost:3000/api/user/31",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-14T22:11:43.204Z",
+            "modified": "2024-03-14T22:12:45.211Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "29254228-dc5b-4f76-b06e-32e263eba8f8",
+            "colId": "0b5408f1-86ca-4a5c-b0b8-2e773b1a3ce6",
+            "containerId": "928514e2-d0b2-4c38-8833-8334e3cbd4f4",
+            "name": "Get All Users",
+            "url": "http://localhost:3000/api/user/all",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-14T22:12:59.590Z",
+            "modified": "2024-03-14T22:13:16.566Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "reqType": "get",
             "tests": []
         }
     ]
