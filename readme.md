@@ -59,6 +59,30 @@ npm run build
 php artisan serve --port=3000
 ```
 
+#### We get the following successful response for getAllUsers request
+
+```json
+{
+    "success": true,
+    "data": [
+        {
+            "first_name": "Rhoda",
+            "last_name": "Corkery",
+            "email": "upton.orpha@example.com",
+            "created_at": "2024-03-15T11:47:36.000000Z",
+            "updated_at": "2024-03-15T11:47:36.000000Z"
+        },
+        {
+            "first_name": "Velda",
+            "last_name": "Willms",
+            "email": "edward13@example.net",
+            "created_at": "2024-03-15T11:47:36.000000Z",
+            "updated_at": "2024-03-15T11:47:36.000000Z"
+        }
+    ]
+}
+```
+
 ## Api Documentation
 
 ```bash
