@@ -2,9 +2,9 @@
 
 <img src="https://github.com/kkamara/useful/blob/main/php-reactjs-boilerplate2.png?raw=true" alt="php-reactjs-boilerplate2.png" width=""/>
 
-# Laravel API Resources [![API](https://github.com/kkamara/laravel-api-resources/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/laravel-api-resources/actions/workflows/build.yml)
+# Laravel API Resources 2 [![API](https://github.com/kkamara/laravel-api-resources-2/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/laravel-api-resources-2/actions/workflows/build.yml)
 
-(14-Mar-2023) A Laravel 11.x app with Reactjs Redux.
+(15-Mar-2023) A Laravel 11.x app with Reactjs Redux.
 
 * [Using Thunder Client?](#thunder-client)
 
@@ -58,37 +58,6 @@ npm run build
 ```bash
 php artisan serve --port=3000
 ```
-
-#### Using UserCollection results in duplication of "success" key in data array
-
-```json
-{
-    "data": [
-        {
-            "success": true,
-            "data": {
-                "first_name": "Jason",
-                "last_name": "Herzog",
-                "email": "saufderhar@example.org",
-                "created_at": "2024-03-14T21:47:17.000000Z",
-                "updated_at": "2024-03-14T21:47:17.000000Z"
-            }
-        },
-        {
-            "success": true,
-            "data": {
-                "first_name": "Amira",
-                "last_name": "Wiza",
-                "email": "jledner@example.net",
-                "created_at": "2024-03-14T21:47:17.000000Z",
-                "updated_at": "2024-03-14T21:47:17.000000Z"
-            }
-        }
-    ]
-}
-```
-
-[See fix in Laravel API Resources 2](https://github.com/kkamara/laravel-api-resources-2).
 
 ## Api Documentation
 
