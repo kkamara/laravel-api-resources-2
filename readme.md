@@ -29,7 +29,7 @@
 
 [Thunder client](https://www.thunderclient.com/) Visual Studio Code extension.
 
-[thunder-collection_Laravel API Resources.json](https://github.com/kkamara/laravel-api-resources/blob/main/database/thunder-collection_Laravel%20API%20Resources.json)
+[thunder-collection_Laravel API Resources 2.json](https://github.com/kkamara/laravel-api-resources-2/blob/main/database/thunder-collection_Laravel%20API%20Resources%202.json)
 
 ## Installation
 
