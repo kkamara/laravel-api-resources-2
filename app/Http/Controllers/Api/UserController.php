@@ -85,12 +85,18 @@ class UserController extends Controller
     }
 
     function getUser(User $user, Request $request) {
-        return new APIUserResource($user);
+        return [
+            "success" =>  true,
+            "data" => new APIUserResource($user),
+        ];
     }
 
     function getAllUsers(Request $request) {
-        return new UserCollection(
-            User::paginate()
-        );
+        return [
+            "success" => true,
+            "data" => new UserCollection(
+                User::paginate()
+            ),
+        ];
     }
 }
