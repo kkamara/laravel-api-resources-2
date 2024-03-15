@@ -4,7 +4,7 @@
 
 # Laravel API Resources 2 [![API](https://github.com/kkamara/laravel-api-resources-2/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/laravel-api-resources-2/actions/workflows/build.yml)
 
-(15-Mar-2023) A Laravel 11.x app with Reactjs Redux.
+(15-Mar-2024) A Laravel 11.x app with Reactjs Redux.
 
 * [Using Thunder Client?](#thunder-client)
 
